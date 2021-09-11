@@ -4,7 +4,10 @@ For this assignment you will practice writing an indefinite loop, `cin`/`cout`, 
 
 You are to use the `doodle` framework to produce an image of white points on a grey background. 
 
-The program will first prompt for and read in a width and height for the image _(doodle window size)_. It will create a doodle window of that size and set the background color to the grey scale color **120**. Then it will read in as many 2D integer points as it can. For each point it will draw a **white** circle with a **radius of 4** pixels. When there are no more points provided then it will capture a screen shot of the doodle window and save it out as PNG file `points.png`.
+The program will first prompt for and read in a width and height for the image _(doodle window size)_. 
+It will create a doodle window of that size and set the background color to the grey scale color **120**. T
+hen it will read in as many 2D integer points as it can. For each point it will draw a **white** circle with a **radius of 4** pixels. 
+When there are no more points provided then it will capture a screen shot of the doodle window and save it out as PNG file `points.png`.
 
 ## Example Play Through
 
@@ -53,7 +56,9 @@ The program closes and there is now a `points.png` file that looks like this:
 
 ## Test Cases
 
-On the command line, we can provide a text file as a replacement for input. This way, we save time by not having to type in the same input each time we run the program. Let's see how to do that.
+On the command line, we can provide a text file as a replacement for input. 
+This way, we save time by not having to type in the same input each time we run the program. 
+Let's see how to do that.
 
 Let's assume your executable name is `doodle.exe`.
 
